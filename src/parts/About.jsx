@@ -38,7 +38,7 @@ function About({ darkMode }) {
             <div className="relative w-64 h-64 sm:w-80 sm:h-80">
               <div className="absolute inset-0 bg-linear-to-br from-cyan-400 to-blue-500 rounded-full blur-2xl opacity-20"></div>
               <img
-                src="/public/Sujay_pfp.jpg"
+                src="/src/assets/Sujay_pfp.jpg"
                 alt="Sujay Mahato"
                 className="relative rounded-full w-full h-full object-cover border-4 border-white dark:border-gray-700 shadow-xl"
                 loading="lazy"
