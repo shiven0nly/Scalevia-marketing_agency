@@ -85,7 +85,7 @@ function Hero({ darkMode }) {
               onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
               className="px-8 py-4 bg-linear-to-r from-cyan-500 to-blue-500 text-white rounded-full font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center gap-2"
             >
-              Work With Me
+              Work With Us
               <ArrowRight size={20} />
             </button>
             <button
