@@ -50,25 +50,37 @@ function Footer({ darkMode }) {
             <h4 className="text-lg font-semibold mb-4">Connect</h4>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.instagram.com/iamscalevia"
                 className="p-2 bg-gray-200 dark:bg-gray-700 rounded-full hover:bg-cyan-500 hover:text-white dark:hover:bg-cyan-500 transition-all duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
               >
                 <Instagram size={20} />
               </a>
               <a
                 href="#"
                 className="p-2 bg-gray-200 dark:bg-gray-700 rounded-full hover:bg-cyan-500 hover:text-white dark:hover:bg-cyan-500 transition-all duration-300"
+                aria-label="Twitter"
               >
                 <Twitter size={20} />
               </a>
               <a
-                href="#"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=wearescalevia@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 bg-gray-200 dark:bg-gray-700 rounded-full hover:bg-cyan-500 hover:text-white dark:hover:bg-cyan-500 transition-all duration-300"
+                aria-label="Email"
               >
                 <Mail size={20} />
               </a>
+
+              {/* WhatsApp message link - replace 911234567890 with your number (country code + number, no plus sign) */}
               <a
-                href="#"
+                href="https://wa.me/918944918807?text=Hi%20Scalevia%2C%20I%20have%20a%20question"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
                 className="p-2 bg-gray-200 dark:bg-gray-700 rounded-full hover:bg-cyan-500 hover:text-white dark:hover:bg-cyan-500 transition-all duration-300"
               >
                 <MessageCircle size={20} />
@@ -76,8 +88,6 @@ function Footer({ darkMode }) {
             </div>
           </div>
         </div>
-
-        {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-300 dark:border-gray-700 text-center">
           <p className="text-gray-600 dark:text-gray-400">
             © {currentYear} Scalevia | Built by Sujay Mahato

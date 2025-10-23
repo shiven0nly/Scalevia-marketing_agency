@@ -29,10 +29,10 @@ function Contact({ darkMode }) {
   };
 
   const socialLinks = [
-    { icon: <Instagram size={24} />, name: 'Instagram', href: '#' },
+    { icon: <Instagram size={24} />, name: 'Instagram', href: 'https://www.instagram.com/iamscalevia' },
     { icon: <Twitter size={24} />, name: 'Twitter', href: '#' },
-    { icon: <Mail size={24} />, name: 'Email', href: '#' },
-    { icon: <MessageCircle size={24} />, name: 'WhatsApp', href: '#' }
+    { icon: <Mail size={24} />, name: 'Email', href: 'https://mail.google.com/mail/?view=cm&fs=1&to=wearescalevia@gmail.com' },
+    { icon: <MessageCircle size={24} />, name: 'WhatsApp', href: 'https://wa.me/918944918807?text=Hi%20Scalevia%2C%20I%20have%20a%20question' }
   ];
 
   return (
