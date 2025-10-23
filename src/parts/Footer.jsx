@@ -90,7 +90,7 @@ function Footer({ darkMode }) {
         </div>
         <div className="pt-8 border-t border-gray-300 dark:border-gray-700 text-center">
           <p className="text-gray-600 dark:text-gray-400">
-            © {currentYear} Scalevia | Built by Sujay Mahato
+            © {currentYear} Scalevia | Built For Scalevia
           </p>
         </div>
       </div>
